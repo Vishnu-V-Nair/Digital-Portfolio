@@ -1,0 +1,45 @@
+header {
+
+  background-color: black;
+  color: white;
+  height: 5px;
+  padding: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+span {
+  color: #4f0bed;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 30px 25px;
+  margin-top: 0%;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: #1100f9;
+  transform: scale(1.2);
+}
